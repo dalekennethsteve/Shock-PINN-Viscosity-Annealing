@@ -31,6 +31,12 @@ $$u(-1, t) = u(1, t) = 0$$
 As time advances ($t > 1/\pi \approx 0.318$), the smooth initial sine wave steepens into a non-differentiable shock wave at $x \approx 0$.
 
 ---
+## File Structure 
+* **Viscous_Burgers_PINN :** Implementation of PINN to solve Viscous Burgers Equation with viscosity value 0.01 
+* **Inviscid_Burgers_PINN :** Viscosity set to 0 to visualize the failure of PINN to capture the shock
+* **Inv_Burgers_Adam_LBFGS_AVA :** Resolution of shock discontinuity using Aritificial Viscosity Annealing strategy, Adam optimizer and L-BFGS optimizer
+
+---
 
 ## Pipeline Overview
 Stage 1: Adam Phase       
@@ -49,12 +55,6 @@ Stage 2: Balanced L-BFGS Phase
 
 * **Viscous Benchmark ($\nu = 0.01/\pi$):** Achieved an **$R^2$ Score of 99.39%** against Raissi's reference dataset using viscosity continuation.
 * **Inviscid Benchmark ($\nu = 0.0$):** Captured a sharp vertical shock front at $t = 0.95$ while maintaining smooth pre-shock sine wave behavior without numerical ringing.
-
----
-## File Structure 
-* **Viscous_Burgers_PINN :** Implementation of PINN to solve Viscous Burgers Equation with viscosity value 0.01 
-* **Inviscid_Burgers_PINN :** Viscosity set to 0 to visualize the failure of PINN to capture the shock
-* **Inv_Burgers_Adam_LBFGS_AVA :** Resolution of shock discontinuity using Aritificial Viscosity Annealing strategy, Adam optimizer and L-BFGS optimizer 
 
 ---
 Contact 
