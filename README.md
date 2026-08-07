@@ -56,10 +56,8 @@ Viscous_Burgers_PINN : Implementation of PINN to solve Viscous Burgers Equation 
 Inviscid_Burgers_PINN : Viscosity set to 0 to visualize the failure of PINN to capture the shock
 Inv_Burgers_Adam_LBFGS_AVA : Resolution of shock discontinuity using Aritificial Viscosity Annealing strategy, Adam optimizer and L-BFGS optimizer 
 
-## Installation & Dependencies
-
-```bash
-git clone [https://github.com/YOUR_USERNAME/Inviscid-Burgers-PINN.git](https://github.com/YOUR_USERNAME/Inviscid-Burgers-PINN.git)
-cd Inviscid-Burgers-PINN
-pip install torch numpy matplotlib
+---
+Contact 
+Kenneth Steve Diyya
+kennethsteve.d@gmail.com
 
