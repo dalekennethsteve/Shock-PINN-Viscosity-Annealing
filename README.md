@@ -57,7 +57,7 @@ Stage 2: Balanced L-BFGS Phase
 * **Inviscid Benchmark ($\nu = 0.0$):** Captured a sharp vertical shock front at $t = 0.95$ while maintaining smooth pre-shock sine wave behavior without numerical ringing.
 
 ---
-Contact 
-Kenneth Steve Diyya
+## Contact 
+Kenneth Steve Diyya  
 kennethsteve.d@gmail.com
 
