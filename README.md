@@ -51,6 +51,10 @@ Stage 2: Balanced L-BFGS Phase
 * **Inviscid Benchmark ($\nu = 0.0$):** Captured a sharp vertical shock front at $t = 0.95$ while maintaining smooth pre-shock sine wave behavior without numerical ringing.
 
 ---
+## File Structure 
+Viscous_Burgers_PINN : Implementation of PINN to solve Viscous Burgers Equation with viscosity value 0.01 
+Inviscid_Burgers_PINN : Viscosity set to 0 to visualize the failure of PINN to capture the shock
+Inv_Burgers_Adam_LBFGS_AVA : Resolution of shock discontinuity using Aritificial Viscosity Annealing strategy, Adam optimizer and L-BFGS optimizer 
 
 ## Installation & Dependencies
 
