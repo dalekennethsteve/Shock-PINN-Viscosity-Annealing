@@ -54,7 +54,7 @@ Stage 2: Balanced L-BFGS Phase
  ## Results
 
 * **Viscous Benchmark ($\nu = 0.01/\pi$):** Achieved an **$R^2$ Score of 99.39%** against Raissi's reference dataset using viscosity continuation.
-* **Inviscid Benchmark ($\nu = 0.0$):** Captured a sharp vertical shock front at $t = 0.95$ while maintaining smooth pre-shock sine wave behavior without numerical ringing.
+* **Inviscid Benchmark ($\nu = 0.0$):** Captured a sharp vertical shock front while maintaining smooth pre-shock sine wave behavior without numerical ringing with Aritificial Viscosity Annealing and Adam - L-BFGS optimizers.  
 
 ---
 ## Contact 
