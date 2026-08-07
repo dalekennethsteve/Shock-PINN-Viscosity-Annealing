@@ -35,15 +35,15 @@ As time advances ($t > 1/\pi \approx 0.318$), the smooth initial sine wave steep
 ## Pipeline Overview
 Stage 1: Adam Phase       
 
-Dynamic Collocation Points           
-Viscosity Annealing (nu: 0.05 -> 0.0)   
-Learns Macro Topology                  
+1. Dynamic Collocation Points
+2. Viscosity Annealing (nu: 0.05 -> 0.0)
+3. Learns Macro Topology                  
 
 Stage 2: Balanced L-BFGS Phase
  
-Fixed Collocation Points
-Pure Inviscid Residual Formulation
-Uses Hessian Curvature to Sharpen Shock
+1. Fixed Collocation Points
+2. Pure Inviscid Residual Formulation
+3. Uses Hessian Curvature to Sharpen Shock
 
  ## Results
 
