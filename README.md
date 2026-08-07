@@ -39,11 +39,11 @@ Dynamic Collocation Points
 Viscosity Annealing (nu: 0.05 -> 0.0)   
 Learns Macro Topology                  
 
- Stage 2: Balanced L-BFGS Phase
+Stage 2: Balanced L-BFGS Phase
  
- Fixed Collocation Points
- Pure Inviscid Residual Formulation
- Uses Hessian Curvature to Sharpen Shock
+Fixed Collocation Points
+Pure Inviscid Residual Formulation
+Uses Hessian Curvature to Sharpen Shock
 
  ## Results
 
